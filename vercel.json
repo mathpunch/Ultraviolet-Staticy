@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "headers": [
+    {
+      "source": "/uv/uv.sw.js",
+      "headers": [
+        { "key": "Service-Worker-Allowed", "value": "/" }
+      ]
+    }
+  ],
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/" }
+  ]
+}
