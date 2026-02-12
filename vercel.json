@@ -4,11 +4,12 @@
     {
       "source": "/uv/uv.sw.js",
       "headers": [
-        { "key": "Service-Worker-Allowed", "value": "/" }
+        { "key": "Service-Worker-Allowed", "value": "/" },
+        { "key": "Content-Type", "value": "application/javascript" }
       ]
     }
   ],
   "rewrites": [
-    { "source": "/(.*)", "destination": "/" }
+    { "source": "/service/(.*)", "destination": "/" }
   ]
 }
