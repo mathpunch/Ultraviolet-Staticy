@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/service/',
-    bare: '/bare/',
+    bare: 'https://uv.student-portal.workers.dev/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
